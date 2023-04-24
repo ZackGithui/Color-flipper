@@ -12,6 +12,7 @@ btn.addEventListener('click', function()
 }
 
 );
+//using the math random function
 function getNumber(){
     return Math.floor(Math.random()*colors.length);
 };
